@@ -1,0 +1,122 @@
+/*
+Colors:
+    logo-pink    : ff5358;
+    text         : 666
+    background   : fffcf4;
+*/
+body {
+    background:#fffcf4 url(../img/bg.jpg);
+    padding-bottom:50px;
+}
+.story {
+    font-family: 'Lato', sans-serif;
+    color:#666;
+    font-size:25px;
+    line-height:27px;
+}
+h1 {
+    color:#ff5358;
+    font-family: 'Lato', sans-serif;
+    font-size:40px;
+    line-height:43px;
+}
+h1+p {
+    margin-top:-20px;
+}
+.story .hero-unit {
+    padding:60px 0 30px 0;
+}
+
+.story .step1 {
+    background:transparent url(../img/arrow1.png) no-repeat 86% 150px;
+    padding-bottom:60px
+}
+.story .step1 .message {
+    padding-top: 20px;
+}
+.story .step1 .message p {
+    width:250px;
+    margin-top:-20px;
+}
+.story .step1 .message p strong {
+    color:#ff5358;
+}
+
+.story .step2 {
+    background:transparent url(../img/arrow2.png) no-repeat 27% 90px;
+}
+.story .step3 .fake-image {
+    margin-top:-70px;
+}
+.story .step3 img {
+    margin-top:-200px;
+}
+.story .step4 img {
+    margin-top:-70px;
+}
+.story .step4 .fake-image {
+    margin-top:-40px;
+}
+.story .step4 {
+    background:transparent url(../img/arrow3.png) no-repeat 25% 30px;
+}
+
+a.give {
+    -webkit-transition-property:background-color, background-position;   
+    -webkit-transition-duration:.5s, 0.5s;
+    background:#ff5358 url(../img/give-a-mile-logo-give.png) no-repeat 10px 18px;
+    border:#ede0c7 5px solid;
+    color:#fff;
+    font-size:18px;
+    float:left;
+    height:50px;
+    margin-top:5px;
+    overflow:hidden;
+    white-space: nowrap;
+    padding:5px 20px 30px;
+    text-decoration:none;
+    text-indent:3500px;
+    width:190px;
+}
+a.give:hover {
+    color:$fff;
+    background:#ede0c7 url(../img/give-a-mile-logo-give.png) no-repeat 10px -55px;
+}
+.give img {
+    margin-top:-13px;
+}
+
+.fake-image {
+    background:#ccc;
+    height:297px;
+    overflow: hidden;
+    position:relative;;
+    width:100%;
+    border:#ede0c7 5px solid;
+}
+.fake-image img {
+    width:100%;
+}
+.fake-image span.caption {
+    background:rgba(0,0,0,0.5);
+    bottom:0;
+    font-size:40px;
+    font-weight:bold;
+    line-height:44px;
+    position:absolute;
+    left:0;
+    display:block;
+    color:#ccc;
+    width:100%;
+    text-indent:10px;
+}
+.fake-image span.caption span {
+    font-size:20px;
+    line-height:20px;
+    padding-bottom:4px;
+    display: block;
+}
+.fake-image span.caption span.simple {
+    padding:4px 0 4px 20px;
+    text-indent:0;
+}
